@@ -9,7 +9,8 @@ export const appMetadata = {
 
 export const CLIENT_ID =
   process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID ||
-  "6820580389ee4f0c2c5df52d699aa9db";
+  process.env.REACT_APP_THIRDWEB_CLIENT_ID ||
+  "";
 export const CHAIN = xaiSepolia;
 export const CONTRACT_ADDR = "0x870eceF7Ac6713B784Fee6159Cb25D99e40869fb";
 
@@ -28,7 +29,7 @@ export const accountAbstraction = {
 export const wallets = [
   inAppWallet({
     auth: {
-      options: ["google", "discord", "apple", "farcaster", "email", "passkey"],
+      options: ["email", "passkey"],
     },
   }),
 ];

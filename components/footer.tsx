@@ -14,7 +14,7 @@ const Footer = () => {
 					<span>Deploy your own CatAttack contract</span>
 				</a>
 				<a
-					href="https://github.com/joaquim-verges/catattacknft"
+					href="https://github.com/tinemlakar/catattacknft"
 					target="_blank"
 					className="p-3 text-xs font-semibold border border-white/20 rounded flex items-center justify-center space-x-1 hover:bg-white/10 transition"
 					rel="noreferrer"
@@ -34,6 +34,17 @@ const Footer = () => {
 					thirdweb
 				</a>{" "}
 				with ❤️
+			</h4>
+			<h4 className="font-semibold mt-12 mb-2">
+				Modified by 🚀{" "}
+				<a
+					href="https://x.com/kalmialtd"
+					target="_blank"
+					className="underline hover:no-underline"
+					rel="noreferrer"
+				>
+					Kalmia
+				</a>{" "}
 			</h4>
 			<p className="font-semibold text-gray-500">
 				No animals were hurt building this game.
