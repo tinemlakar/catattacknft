@@ -27,7 +27,7 @@ export const accountAbstraction = {
 export const wallets = [
   inAppWallet({
     auth: {
-      options: ["email", "passkey"],
+      options: ["email"],
     },
   }),
 ];
