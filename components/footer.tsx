@@ -33,18 +33,16 @@ const Footer = () => {
 				>
 					thirdweb
 				</a>{" "}
-				with ❤️
-			</h4>
-			<h4 className="font-semibold mt-12 mb-2">
-				Modified by 🚀{" "}
+				modified by 🚀{" "}
 				<a
-					href="https://x.com/kalmialtd"
+					href="https://kalmia.si"
 					target="_blank"
 					className="underline hover:no-underline"
 					rel="noreferrer"
 				>
 					Kalmia
 				</a>{" "}
+				with ❤️
 			</h4>
 			<p className="font-semibold text-gray-500">
 				No animals were hurt building this game.
