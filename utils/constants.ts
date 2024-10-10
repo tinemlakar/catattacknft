@@ -7,10 +7,8 @@ export const appMetadata = {
   url: "https://catattack.thirdweb.com",
 };
 
-export const CLIENT_ID =
-  process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID ||
-  process.env.REACT_APP_THIRDWEB_CLIENT_ID ||
-  "";
+export const CLIENT_ID = process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID || "";
+console.log("Client ID:", process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID);
 export const CHAIN = xaiSepolia;
 export const CONTRACT_ADDR = "0x870eceF7Ac6713B784Fee6159Cb25D99e40869fb";
 
